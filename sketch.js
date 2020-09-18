@@ -49,7 +49,7 @@ function setup() {
   ground.x = ground.width /2;
   ground.velocityX = -(6 + 3*score/100);
 
-  sun = createSprite(width-100,60,20,20);
+  sun = createSprite(50,60,20,20);
   sun.addImage(sunImage);
   sun.scale=0.25;
   
